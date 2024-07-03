@@ -6,7 +6,7 @@
   social: (
     email: "pavelzw@gmail.com",
     github: "pavelzw",
-    linkedin: "zwerschke"
+    linkedin: "zwerschke",
   ),
 )
 
@@ -46,20 +46,35 @@
   date: [2022 -- 2023],
   employer: [QuantCo],
   title: [Working Student],
-  [#linebreak()#text(10pt, [I implemented a more efficient algorithm to store sklearn models. Results in 3x disk space savings. I also contributed to mamba, a cross-platform package manager written in C++.])]
+  [
+    #linebreak()#text(
+      10pt,
+      [I implemented a more efficient algorithm to store sklearn models. Results in 3x disk space savings. I also contributed to mamba, a cross-platform package manager written in C++.],
+    )
+  ],
 )
 #cv-entry(
   date: [2021 -- 2022],
   employer: [Karlsruhe Institute of Technology (KIT)],
   title: [Scientific Assistant],
-  [#linebreak()#text(10pt, [I was participating in the "S2S AI Challenge", a challenge to improve sub-seasonal to seasonal
-weather predictions using artificial intelligence.])]
+  [
+    #linebreak()#text(
+      10pt,
+      [I was participating in the "S2S AI Challenge", a challenge to improve sub-seasonal to seasonal
+        weather predictions using artificial intelligence.],
+    )
+  ],
 )
 #cv-entry(
   date: [2019 -- 2022],
   employer: [Karlsruhe Institute of Technology (KIT)],
   title: [Tutor],
-  [#linebreak()#text(10pt, [I gave tutorials in multiple subjects such as "Basic Notions of Computer Science", "Software Engineering", "Linear Algebra" and "Introduction to Probability Theory".])]
+  [
+    #linebreak()#text(
+      10pt,
+      [I gave tutorials in multiple subjects such as "Basic Notions of Computer Science", "Software Engineering", "Linear Algebra" and "Introduction to Probability Theory".],
+    )
+  ],
 )
 
 = Programming Skills
