@@ -112,7 +112,13 @@
 #cv-line[
   *Further contributions*
 ][
-  #link("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[pixi], #link("https://github.com/prefix-dev/setup-pixi")[setup-pixi], #link("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[rattler-build], #link("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Fmeta.yaml+pavelzw")[conda-forge], #link("https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+author%3Apavelzw+")[Microsoft PowerToys], #link("https://github.com/mamba-org/mamba/pulls?q=is%3Apr+author%3Apavelzw+")[mamba], #link("https://github.com/mamba-org/setup-micromamba")[setup-micromamba]
+  #link("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[pixi],
+  #link("https://github.com/prefix-dev/setup-pixi")[setup-pixi],
+  #link("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[rattler-build],
+  #link("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Fmeta.yaml+pavelzw")[conda-forge],
+  #link("https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+author%3Apavelzw+")[Microsoft PowerToys],
+  #link("https://github.com/mamba-org/mamba/pulls?q=is%3Apr+author%3Apavelzw+")[mamba],
+  #link("https://github.com/mamba-org/setup-micromamba")[setup-micromamba]
 ]
 
 = Languages

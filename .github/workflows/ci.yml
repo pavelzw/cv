@@ -16,7 +16,7 @@ jobs:
       - name: pre-commit
         run: pixi run pre-commit-run --color=always --show-diff-on-failure
 
-  compile:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -29,13 +29,31 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: cv.pdf
+          name: cv
+          if-no-files-found: error
 
   release:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [build]
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
+      - name: Download document
+        uses: actions/download-artifact@v4
+        with:
+          name: cv
       - name: Push tag
+        id: tag
         run: |
-          TODO
+          current_date="$(date +%Y-%m-%d)"
+          git tag "$current_date"
+          git push origin "$current_date"
+          echo tag="$current_date" >> $GITHUB_OUTPUT
+      - name: Create release
+        uses: softprops/action-gh-release@a74c6b72af54cfa997e81df42d94703d6313a2d0
+        with:
+          generate_release_notes: true
+          tag_name: v${{ steps.tag.outputs.tag }}
+          draft: false
+          files: cv.pdf
