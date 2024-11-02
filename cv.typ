@@ -142,7 +142,7 @@
   A GitHub Action to set up pixi in a GitHub Actions workflow.
 ]
 #cv-line[#link-with-icon("https://github.com/pavelzw/calibre-kindle-comics")[#h(-5pt)*`calibre-kindle-comics`*]][
-  A calibre plugin that converts .cbz and .cbr files into a readable format for Kindle viewer.
+  A calibre plugin that converts `.cbz` and `.cbr` files into a readable format for Kindle viewer.
 ]
 #cv-line[
   *Further contributions*
