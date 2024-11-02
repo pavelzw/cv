@@ -4,11 +4,11 @@
 #set-database(toml("lang.toml"))
 
 #let icon = () => [#box(
-  height: 0.5em,
-  inset: -30%,
-  baseline: 0pt,
-  image("link.svg")
-)]
+    height: 0.5em,
+    inset: -30%,
+    baseline: 0pt,
+    image("link.svg"),
+  )]
 
 #let link-with-icon = (label, content) => [#link(label, [#content~#icon()])]
 
