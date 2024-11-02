@@ -9,8 +9,9 @@ compile = "typst compile --font-path=fonts cv.typ"
 pre-commit-run = "pre-commit run -a"
 
 [dependencies]
-typst = ">=0.11.1"
-typstyle = ">=0.11.28"
+typst = ">=0.12.0"
+typstyle = ">=0.12.0"
+font-otf-fontawesome = "*"
 typos = "*"
 pre-commit = "*"
 pre-commit-hooks = "*"
