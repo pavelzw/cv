@@ -75,18 +75,17 @@
 #cv-line[#link-with-icon(
   "https://github.com/prefix-dev/pixi",
 )[*`pixi`*]][
-  A modern cross-platform package manager for the Conda ecosystem with a focus on simplicity, speed, and reproducibility.
-  I have made over #link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[200 contributions] to the project.
+  A modern cross-platform package manager for the Conda ecosystem with a focus on simplicity, speed, and reproducibility (#link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[200+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/prefix-dev/rattler-build",
 )[*`rattler-build`*]][
-  A fast Conda package builder written in Rust. I have made over #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
+  A fast, standalone Conda package builder written in Rust that creates cross-platform relocatable packages from a simple recipe format (#link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/conda/rattler",
 )[*`rattler`*]][
-  A collection of Rust crates to work with the Conda ecosystem. This library powers all modern Rust-based tooling in the Conda ecosystem. I have made over #link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
+  A collection of Rust crates to work with the Conda ecosystem. This library powers all modern Rust-based tooling in the Conda ecosystem (#link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[75+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/conda-forge",
