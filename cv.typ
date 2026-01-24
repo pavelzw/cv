@@ -22,17 +22,17 @@
   show-footer: false,
 )
 
-= Current Positions
+= Positions
 
 #cv-entry-multiline(
-  date: [2024 -- present],
+  date: [2022 -- present],
   employer: [QuantCo],
   title: [Software Engineer],
   [
-    - build a ETL pipeline for data science problems using Polars and SQL
-    - build a Linux cluster using Nomad and Ansible to run Data Science workloads inside corporate environment
-    - contributions to the Conda ecosystem
-    - move the company's internal development tooling to a modern, efficient and scalable workflow which significantly improved developer productivity
+    - Built an ETL pipeline for data science problems using Polars and SQL
+    - Built a Linux cluster using Nomad and Ansible to run data science workloads inside corporate environment
+    - Contributed to the Conda ecosystem
+    - Moved the company's internal development tooling to a modern, efficient and scalable workflow, significantly improving developer productivity
   ],
 )
 #cv-entry-multiline(
@@ -40,11 +40,6 @@
   employer: [Conda Steering Council],
   title: [Member],
   [The Steering Council is the governing body over the entire #link-with-icon("https://github.com/conda", "Conda Organization"). Steering Council members are the face of the organization, and are responsible for officially interfacing with external communities, organizations, non-profits, and companies.],
-)
-#cv-entry(
-  date: [2022 -- 2023],
-  employer: [QuantCo],
-  title: [Internship and Working Student],
 )
 
 = Education
@@ -89,14 +84,14 @@
   A fast Conda package builder written in Rust. I have made over #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
 ]
 #cv-line[#link-with-icon(
-  "https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+",
+  "https://github.com/conda/rattler",
 )[*`rattler`*]][
-  A collection of Rust crates to work with the Conda ecosystem. This library is powering all modern Rust-based tooling in the Conda ecosystem. I have made over #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
+  A collection of Rust crates to work with the Conda ecosystem. This library powers all modern Rust-based tooling in the Conda ecosystem. I have made over #link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
 ]
 #cv-line[#link-with-icon(
   "https://github.com/conda-forge",
 )[*`conda-forge`*]][
-  The backbone of the Conda ecosystem. It consists of over 30000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[200 feedstocks].
+  The backbone of the Conda ecosystem. It consists of over 30,000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[200 feedstocks].
 ]
 #cv-line[
   *Conda tooling*
@@ -145,12 +140,12 @@
 #cv-line[
   Technologies
 ][
-  Python, Rust, Bash, Linux, Docker, Typst, NumPy, polars, SQL, scikit-learn, Git, Terraform, GitHub Actions
+  Python, Rust, Bash, Linux, Docker, Typst, NumPy, Polars, SQL, scikit-learn, Git, Terraform, GitHub Actions
 ]
 #cv-line[
   Languages
 ][
-  German (native), English (fluent), French (Advanced), Russian (Good), Dutch (Good)
+  German (native), English (fluent), French (intermediate), Russian (intermediate), Dutch (intermediate)
 ]
 
 #v(1fr, weak: false)
