@@ -19,39 +19,32 @@
     linkedin: "zwerschke",
     website: ("link", "https://pavel.pink", "pavel.pink"),
   ),
-  show-footer: true,
+  show-footer: false,
 )
 
-#show heading.where(level: 1): set block(above: 5pt)
+= Current Positions
 
-= Experience
-
-#cv-entry(
+#cv-entry-multiline(
   date: [2024 -- present],
   employer: [QuantCo],
   title: [Software Engineer],
-)
-#cv-entry(
-  date: [2023],
-  employer: [QuantCo],
-  title: [Internship],
   [
-    #linebreak()#text(
-      10pt,
-      [I built a Linux cluster using Nomad and Ansible to run Data Science workloads inside corporate environment. I also contributed to pixi, a cross-platform package manager written in Rust.],
-    )
+    - build a ETL pipeline for data science problems using Polars and SQL
+    - build a Linux cluster using Nomad and Ansible to run Data Science workloads inside corporate environment
+    - contributions to the Conda ecosystem
+    - move the company's internal development tooling to a modern, efficient and scalable workflow which significantly improved developer productivity
   ],
 )
+#cv-entry-multiline(
+  date: [2025 -- present],
+  employer: [Conda Steering Council],
+  title: [Member],
+  [The Steering Council is the governing body over the entire #link-with-icon("https://github.com/conda", "Conda Organization"). Steering Council members are the face of the organization, and are responsible for officially interfacing with external communities, organizations, non-profits, and companies.],
+)
 #cv-entry(
-  date: [2022],
+  date: [2022 -- 2023],
   employer: [QuantCo],
-  title: [Working Student],
-  [
-    #linebreak()#text(
-      10pt,
-      [I implemented a more efficient algorithm to store sklearn models. Results in 3x disk space savings. I also contributed to mamba, a cross-platform package manager written in C++.],
-    )
-  ],
+  title: [Internship and Working Student],
 )
 
 = Education
@@ -73,83 +66,92 @@
 )[9.5/10]
 #cv-entry(
   date: [2018 -- 2021],
-  title: [B.Sc. Mathematics],
-  employer: [Karlsruhe Institute of Technology],
-)[1.0/1.0 (best of year)]
-#cv-entry(
-  date: [2018 -- 2021],
   title: [B.Sc. Computer Science],
   employer: [Karlsruhe Institute of Technology],
 )[1.1/1.0]
+#cv-entry(
+  date: [2018 -- 2021],
+  title: [B.Sc. Mathematics],
+  employer: [Karlsruhe Institute of Technology],
+)[1.0/1.0 (best of year)]
 
 = Open Source
 
-#cv-line[
-  #link-with-icon("https://github.com/quantco/polarify")[*`polarify`*]
-][
-  A Python package that transforms Python methods into polars expressions by AST transformations.
+#cv-line[#link-with-icon(
+  "https://github.com/prefix-dev/pixi",
+)[*`pixi`*]][
+  A modern cross-platform package manager for the Conda ecosystem with a focus on simplicity, speed, and reproducibility.
+  I have made over #link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[200 contributions] to the project.
 ]
 #cv-line[#link-with-icon(
-  "https://github.com/quantco/pixi-pack",
-)[*`pixi-pack`*]][
-  A tool to pack and unpack conda environments created with pixi.
+  "https://github.com/prefix-dev/rattler-build",
+)[*`rattler-build`*]][
+  A fast Conda package builder written in Rust. I have made over #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
 ]
 #cv-line[#link-with-icon(
-  "https://github.com/pavelzw/pixi-pycharm",
-)[*`pixi-pycharm`*]][
-  A conda shim that tricks PyCharm into using conda environments with pixi.
+  "https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+",
+)[*`rattler`*]][
+  A collection of Rust crates to work with the Conda ecosystem. This library is powering all modern Rust-based tooling in the Conda ecosystem. I have made over #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100 contributions] to the project.
+]
+#cv-line[#link-with-icon(
+  "https://github.com/conda-forge",
+)[*`conda-forge`*]][
+  The backbone of the Conda ecosystem. It consists of over 30000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[200 feedstocks].
 ]
 #cv-line[
-  #link-with-icon("https://github.com/quantco/slim-trees")[*`slim-trees`*]
+  *Conda tooling*
 ][
-  A Python package for space-efficient compression of sklearn Tree-based and lightgbm models. The compression is performed by modifying Python's pickling behavior.
+  I built various other tools for the Conda ecosystem:
+  #link-with-icon("https://github.com/prefix-dev/setup-pixi")[setup-pixi],
+  #link-with-icon("https://github.com/quantco/pixi-pack")[pixi-pack],
+  #link-with-icon("https://github.com/conda-incubator/conda-mirror")[conda-mirror],
+  #link-with-icon("https://github.com/quantco/conda-deny")[conda-deny],
+  #link-with-icon("https://github.com/pavelzw/pixi-diff")[pixi-diff],
+  #link-with-icon("https://github.com/pavelzw/pixi-inject")[pixi-inject],
+  #link-with-icon("https://github.com/pavelzw/pixi-install-to-prefix")[pixi-install-to-prefix],
+  #link-with-icon("https://github.com/prefix-dev/pixi-docker")[pixi-docker],
+  #link-with-icon("https://github.com/pavelzw/pixi-diff-to-markdown")[pixi-diff-to-markdown],
+  #link-with-icon("https://github.com/pavelzw/pixi-pycharm")[pixi-pycharm],
+  #link-with-icon("https://github.com/starship/starship/pull/6335")[starship (pixi support)],
+  // technically i didn't build this
+  // #link-with-icon("https://github.com/mamba-org/mamba/pulls?q=is%3Apr+author%3Apavelzw+")[mamba],
+  #link-with-icon(
+    "https://github.com/mamba-org/setup-micromamba",
+  )[setup-micromamba]
 ]
 #cv-line[
   #link-with-icon("https://github.com/pavelzw/7circles")[*`7circles`*]
 ][
   An educational video created with #link-with-icon("https://github.com/manimCommunity/manim")[manim] about the #link-with-icon("https://arxiv.org/pdf/1911.00161")[Seven Circles Theorem]. The video is available on YouTube in #link-with-icon("https://youtu.be/m9v0h2ibYpo")[English] and in #link-with-icon("https://youtu.be/flR3e5Cc2G4")[German].
 ]
-#cv-line[#link-with-icon(
-  "https://github.com/pavelzw/moderner-cv",
-)[*`moderner-cv`*]][
-  A Typst package inspired by the `moderncv` LaTeX package.
-]
-#cv-line[#link-with-icon(
-  "https://github.com/prefix-dev/setup-pixi",
-)[*`setup-pixi`*]][
-  A GitHub Action to set up pixi in a GitHub Actions workflow.
-]
-#cv-line[#link-with-icon(
-  "https://github.com/pavelzw/calibre-kindle-comics",
-)[#h(-5pt)*`calibre-kindle-comics`*]][
-  A calibre plugin that converts `.cbz` and `.cbr` files into a readable format for Kindle viewer.
-]
 #cv-line[
   *Further contributions*
 ][
-  #link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[pixi],
-  #link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[rattler],
-  #link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[rattler-build],
-  #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[conda-forge],
-  #link-with-icon("https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+author%3Apavelzw+")[Microsoft PowerToys],
-  #link-with-icon("https://github.com/mamba-org/mamba/pulls?q=is%3Apr+author%3Apavelzw+")[mamba],
+  #link-with-icon("https://github.com/quantco/slim-trees")[slim-trees],
+  #link-with-icon("https://github.com/quantco/polarify")[polarify],
+  #link-with-icon("https://github.com/pavelzw/pydantic-settings-sops")[pydantic-settings-sops],
+  #link-with-icon("https://github.com/pavelzw/calibre-kindle-comics")[calibre-kindle-comics],
+  #link-with-icon("https://github.com/pavelzw/moderner-cv")[moderner-cv],
+  #link-with-icon("https://github.com/Homebrew/homebrew-core/issues?q=sort:updated-desc+author:pavelzw+")[homebrew-core],
+  #link-with-icon("https://github.com/pavelzw/boring-gravatars")[boring-gravatars],
+  #link-with-icon("https://github.com/direnv/direnv/pull/1530")[direnv],
   #link-with-icon(
-    "https://github.com/mamba-org/setup-micromamba",
-  )[setup-micromamba]
+    "https://github.com/evilmartians/lefthook/pull/1231",
+  )[lefthook]
 ]
 
 = Skills
 
-#cv-double-item[
-  Programming Languages
-][
-  Python, Bash, Rust, SQL, Typst
-][
+#cv-line[
   Technologies
 ][
-  Linux, NumPy, pandas, scikit-learn, PyTorch, Docker, Git, Terraform, GitHub Actions
+  Python, Rust, Bash, Linux, Docker, Typst, NumPy, polars, SQL, scikit-learn, Git, Terraform, GitHub Actions
+]
+#cv-line[
+  Languages
+][
+  German (native), English (fluent), French (Advanced), Russian (Good), Dutch (Good)
 ]
 
-#cv-double-item[German][Native][English][Fluent]
-#cv-double-item[French][Advanced][Russian][Good]
-#cv-line[Dutch][Good]
+#v(1fr, weak: false)
+#datetime.today().display("[month repr:long] [day], [year]")
