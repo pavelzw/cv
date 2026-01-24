@@ -4,8 +4,6 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    registries:
-      - github
     groups:
       gh-actions:
         patterns:
