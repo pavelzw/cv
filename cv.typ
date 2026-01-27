@@ -20,6 +20,7 @@
     website: ("link", "https://pavel.pink", "pavel.pink"),
   ),
   show-footer: false,
+  color: rgb("f472b6"),
 )
 
 = Positions
