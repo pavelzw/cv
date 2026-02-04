@@ -14,7 +14,6 @@
   subtitle: "CV",
   lang: "en",
   social: (
-    email: "pavelzw@gmail.com",
     github: "pavelzw",
     linkedin: "zwerschke",
     website: ("link", "https://pavel.pink", "pavel.pink"),
