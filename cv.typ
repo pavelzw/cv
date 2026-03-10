@@ -98,6 +98,7 @@
   I built various other tools for the Conda ecosystem:
   #link-with-icon("https://github.com/prefix-dev/setup-pixi")[setup-pixi],
   #link-with-icon("https://github.com/quantco/pixi-pack")[pixi-pack],
+  #link-with-icon("https://github.com/pavelzw/pixi-browse")[pixi-browse],
   #link-with-icon("https://github.com/conda-incubator/conda-mirror")[conda-mirror],
   #link-with-icon("https://github.com/quantco/conda-deny")[conda-deny],
   #link-with-icon("https://github.com/pavelzw/pixi-diff")[pixi-diff],
