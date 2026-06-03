@@ -102,7 +102,6 @@
   #link-with-icon("https://github.com/conda-incubator/conda-mirror")[conda-mirror],
   #link-with-icon("https://github.com/quantco/conda-deny")[conda-deny],
   #link-with-icon("https://github.com/pavelzw/pixi-diff")[pixi-diff],
-  #link-with-icon("https://github.com/pavelzw/pixi-inject")[pixi-inject],
   #link-with-icon("https://github.com/pavelzw/pixi-install-to-prefix")[pixi-install-to-prefix],
   #link-with-icon("https://github.com/prefix-dev/pixi-docker")[pixi-docker],
   #link-with-icon("https://github.com/pavelzw/pixi-diff-to-markdown")[pixi-diff-to-markdown],
