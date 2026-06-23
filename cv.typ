@@ -129,9 +129,10 @@
   #link-with-icon("https://github.com/Homebrew/homebrew-core/issues?q=sort:updated-desc+author:pavelzw+")[homebrew-core],
   #link-with-icon("https://github.com/pavelzw/boring-gravatars")[boring-gravatars],
   #link-with-icon("https://github.com/direnv/direnv/pull/1530")[direnv],
+  #link-with-icon("https://github.com/evilmartians/lefthook/pull/1231")[lefthook],
   #link-with-icon(
-    "https://github.com/evilmartians/lefthook/pull/1231",
-  )[lefthook]
+    "https://github.com/I-Al-Istannen/py-crude-resource-monitor/issues?q=sort:updated-desc+author:pavelzw+",
+  )[py-crude-resource-monitor]
 ]
 
 = Skills
