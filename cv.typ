@@ -75,22 +75,22 @@
 #cv-line[#link-with-icon(
   "https://github.com/prefix-dev/pixi",
 )[*`pixi`*]][
-  A modern cross-platform package manager for the Conda ecosystem with a focus on simplicity, speed, and reproducibility (#link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[200+ contributions]).
+  A modern cross-platform package manager for the Conda ecosystem with a focus on simplicity, speed, and reproducibility (#link-with-icon("https://github.com/prefix-dev/pixi/issues?q=sort:updated-desc+author:pavelzw+")[300+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/prefix-dev/rattler-build",
 )[*`rattler-build`*]][
-  A fast, standalone Conda package builder written in Rust that creates cross-platform relocatable packages from a simple recipe format (#link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[100+ contributions]).
+  A fast, standalone Conda package builder written in Rust that creates cross-platform relocatable packages from a simple recipe format (#link-with-icon("https://github.com/prefix-dev/rattler-build/issues?q=sort:updated-desc+author:pavelzw+")[150+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/conda/rattler",
 )[*`rattler`*]][
-  A collection of Rust crates to work with the Conda ecosystem. This library powers all modern Rust-based tooling in the Conda ecosystem (#link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[100+ contributions]).
+  A collection of Rust crates to work with the Conda ecosystem. This library powers all modern Rust-based tooling in the Conda ecosystem (#link-with-icon("https://github.com/conda/rattler/issues?q=sort:updated-desc+author:pavelzw+")[150+ contributions]).
 ]
 #cv-line[#link-with-icon(
   "https://github.com/conda-forge",
 )[*`conda-forge`*]][
-  The backbone of the Conda ecosystem. It consists of over 30,000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[200+ feedstocks].
+  The backbone of the Conda ecosystem. It consists of over 30,000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[300+ feedstocks].
 ]
 #cv-line[
   *Conda tooling*
@@ -119,6 +119,9 @@
   An educational video created with #link-with-icon("https://github.com/manimCommunity/manim")[manim] about the #link-with-icon("https://arxiv.org/pdf/1911.00161")[Seven Circles Theorem] (#link-with-icon("https://link.springer.com/article/10.1007/s00283-022-10231-9")[Springer]). The video is available on YouTube in #link-with-icon("https://youtu.be/m9v0h2ibYpo")[English] and in #link-with-icon("https://youtu.be/flR3e5Cc2G4")[German].
 ]
 #cv-line[
+  #link-with-icon("https://github.com/moritzwilksch/diffle")[*`diffle`*]
+][A web-based keyboard-first diff viewer with LSP support.]
+#cv-line[
   *Further contributions*
 ][
   #link-with-icon("https://github.com/quantco/slim-trees")[slim-trees],
@@ -140,7 +143,7 @@
 #cv-line[
   Technologies
 ][
-  Python, Rust, Bash, Linux, Docker, Typst, NumPy, Polars, SQL, scikit-learn, Git, Terraform, GitHub Actions
+  Python, Rust, Bash, Linux, Docker, Typst, Polars, SQL, Terraform, GitHub Actions
 ]
 #cv-line[
   Languages
