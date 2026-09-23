@@ -90,7 +90,7 @@
 #cv-line[#link-with-icon(
   "https://github.com/conda-forge",
 )[*`conda-forge`*]][
-  The backbone of the Conda ecosystem. It consists of over 30,000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://github.com/search?type=code&q=owner%3Aconda-forge+path%3Arecipe%2Frecipe.yaml+pavelzw")[300+ feedstocks].
+  The backbone of the Conda ecosystem. It consists of over 30,000 packages for Linux, macOS and Windows. I maintain over #link-with-icon("https://travishathaway.github.io/feedstock-maintainers/maintainers/pavelzw")[300+ feedstocks].
 ]
 #cv-line[
   *Conda tooling*
